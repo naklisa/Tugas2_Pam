@@ -49,7 +49,7 @@ Selama pengerjaan tugas HTML-only ini, terdapat beberapa tantangan teknis yang d
 
 | No | Tantangan Teknis | Solusi yang Diterapkan |
 |---|---|---|
-| 1 | **Menjaga keterbacaan tampilan tanpa CSS (HTML-Only)** | Mengatur hierarki elemen secara logis, memanfaatkan pembatas baris (`<hr>`), daftar terstruktur (`<ul>`, `<ol>`), serta atribut tabel bawaan (`border="1"`) agar tampilan tetap rapi walau tanpa gaya CSS. |
+| 1 | **Menjaga keterbacaan tampilan tanpa CSS (HTML-Only)** | Mengatur hierarki elemen secara logis, memanfaatkan pembatas baris (`<hr>`), daftar terstruktur (`<ul>`, `<ol>`), serta atribut gaya tabel (`style="border: 1px solid black;"`) agar tampilan tetap rapi dan lolos W3C Validator. |
 | 2 | **Memastikan Hirarki Heading Terstruktur (`h1`-`h6`)** | Merancang hierarki heading secara teliti pada artikel berita di `berita.html`, di mana `<h1>` digunakan untuk judul portal berita, `<h2>` untuk bagian seksi berita, `<h3>` untuk artikel utama, `<h4>` untuk latar belakang, `<h5>` untuk spesifikasi daya, dan `<h6>` untuk catatan uji coba. |
 | 3 | **Kepatuhan Kriteria W3C Validator** | Menggunakan penutupan tag yang konsisten, menambahkan atribut wajib seperti `alt` pada `<img>`, `lang="id"` pada `<html>`, meta `charset="UTF-8"`, serta menghindari tag non-standar yang dapat memicu *warning* atau *error*. |
 
